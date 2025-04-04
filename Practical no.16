@@ -1,0 +1,28 @@
+```
+class Animal {
+  void sound() {
+    System.out.println("Animal makes a sound");
+  }
+}
+
+class cow extends Animal {
+  void sound() {
+    System.out.println("cow wow");
+  }
+}
+
+class lion extends Animal {
+  void sound() {
+    System.out.println("lion atak ");
+  }
+}
+
+public class HierarchicalInheritance {
+  public static void main(String[] args) {
+    Cow cow = new cow();
+    Lion lion = new lion();
+    dog.sound();
+    cat.sound();
+  }
+}
+```
